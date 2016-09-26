@@ -1,0 +1,543 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		19EF56EA1D99B9C200E1AF2D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19EF56E91D99B9C200E1AF2D /* AppDelegate.swift */; };
+		19EF56EC1D99B9C200E1AF2D /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19EF56EB1D99B9C200E1AF2D /* RootViewController.swift */; };
+		19EF56EE1D99B9C200E1AF2D /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19EF56ED1D99B9C200E1AF2D /* DataViewController.swift */; };
+		19EF56F01D99B9C200E1AF2D /* ModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19EF56EF1D99B9C200E1AF2D /* ModelController.swift */; };
+		19EF56F31D99B9C200E1AF2D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19EF56F11D99B9C200E1AF2D /* Main.storyboard */; };
+		19EF56F51D99B9C200E1AF2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19EF56F41D99B9C200E1AF2D /* Assets.xcassets */; };
+		19EF56F81D99B9C200E1AF2D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19EF56F61D99B9C200E1AF2D /* LaunchScreen.storyboard */; };
+		19EF57031D99B9C200E1AF2D /* fastlane_playgroundTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19EF57021D99B9C200E1AF2D /* fastlane_playgroundTests.swift */; };
+		19EF570E1D99B9C200E1AF2D /* fastlane_playgroundUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19EF570D1D99B9C200E1AF2D /* fastlane_playgroundUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		19EF56FF1D99B9C200E1AF2D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 19EF56DE1D99B9C200E1AF2D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 19EF56E51D99B9C200E1AF2D;
+			remoteInfo = "fastlane-playground";
+		};
+		19EF570A1D99B9C200E1AF2D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 19EF56DE1D99B9C200E1AF2D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 19EF56E51D99B9C200E1AF2D;
+			remoteInfo = "fastlane-playground";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		19EF56E61D99B9C200E1AF2D /* fastlane-playground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "fastlane-playground.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		19EF56E91D99B9C200E1AF2D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		19EF56EB1D99B9C200E1AF2D /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		19EF56ED1D99B9C200E1AF2D /* DataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
+		19EF56EF1D99B9C200E1AF2D /* ModelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelController.swift; sourceTree = "<group>"; };
+		19EF56F21D99B9C200E1AF2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		19EF56F41D99B9C200E1AF2D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		19EF56F71D99B9C200E1AF2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		19EF56F91D99B9C200E1AF2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19EF56FE1D99B9C200E1AF2D /* fastlane-playgroundTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "fastlane-playgroundTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		19EF57021D99B9C200E1AF2D /* fastlane_playgroundTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fastlane_playgroundTests.swift; sourceTree = "<group>"; };
+		19EF57041D99B9C200E1AF2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19EF57091D99B9C200E1AF2D /* fastlane-playgroundUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "fastlane-playgroundUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		19EF570D1D99B9C200E1AF2D /* fastlane_playgroundUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fastlane_playgroundUITests.swift; sourceTree = "<group>"; };
+		19EF570F1D99B9C200E1AF2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		19EF56E31D99B9C200E1AF2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19EF56FB1D99B9C200E1AF2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19EF57061D99B9C200E1AF2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19EF56DD1D99B9C200E1AF2D = {
+			isa = PBXGroup;
+			children = (
+				19EF56E81D99B9C200E1AF2D /* fastlane-playground */,
+				19EF57011D99B9C200E1AF2D /* fastlane-playgroundTests */,
+				19EF570C1D99B9C200E1AF2D /* fastlane-playgroundUITests */,
+				19EF56E71D99B9C200E1AF2D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		19EF56E71D99B9C200E1AF2D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				19EF56E61D99B9C200E1AF2D /* fastlane-playground.app */,
+				19EF56FE1D99B9C200E1AF2D /* fastlane-playgroundTests.xctest */,
+				19EF57091D99B9C200E1AF2D /* fastlane-playgroundUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		19EF56E81D99B9C200E1AF2D /* fastlane-playground */ = {
+			isa = PBXGroup;
+			children = (
+				19EF56E91D99B9C200E1AF2D /* AppDelegate.swift */,
+				19EF56EB1D99B9C200E1AF2D /* RootViewController.swift */,
+				19EF56ED1D99B9C200E1AF2D /* DataViewController.swift */,
+				19EF56EF1D99B9C200E1AF2D /* ModelController.swift */,
+				19EF56F11D99B9C200E1AF2D /* Main.storyboard */,
+				19EF56F41D99B9C200E1AF2D /* Assets.xcassets */,
+				19EF56F61D99B9C200E1AF2D /* LaunchScreen.storyboard */,
+				19EF56F91D99B9C200E1AF2D /* Info.plist */,
+			);
+			path = "fastlane-playground";
+			sourceTree = "<group>";
+		};
+		19EF57011D99B9C200E1AF2D /* fastlane-playgroundTests */ = {
+			isa = PBXGroup;
+			children = (
+				19EF57021D99B9C200E1AF2D /* fastlane_playgroundTests.swift */,
+				19EF57041D99B9C200E1AF2D /* Info.plist */,
+			);
+			path = "fastlane-playgroundTests";
+			sourceTree = "<group>";
+		};
+		19EF570C1D99B9C200E1AF2D /* fastlane-playgroundUITests */ = {
+			isa = PBXGroup;
+			children = (
+				19EF570D1D99B9C200E1AF2D /* fastlane_playgroundUITests.swift */,
+				19EF570F1D99B9C200E1AF2D /* Info.plist */,
+			);
+			path = "fastlane-playgroundUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		19EF56E51D99B9C200E1AF2D /* fastlane-playground */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19EF57121D99B9C200E1AF2D /* Build configuration list for PBXNativeTarget "fastlane-playground" */;
+			buildPhases = (
+				19EF56E21D99B9C200E1AF2D /* Sources */,
+				19EF56E31D99B9C200E1AF2D /* Frameworks */,
+				19EF56E41D99B9C200E1AF2D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "fastlane-playground";
+			productName = "fastlane-playground";
+			productReference = 19EF56E61D99B9C200E1AF2D /* fastlane-playground.app */;
+			productType = "com.apple.product-type.application";
+		};
+		19EF56FD1D99B9C200E1AF2D /* fastlane-playgroundTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19EF57151D99B9C200E1AF2D /* Build configuration list for PBXNativeTarget "fastlane-playgroundTests" */;
+			buildPhases = (
+				19EF56FA1D99B9C200E1AF2D /* Sources */,
+				19EF56FB1D99B9C200E1AF2D /* Frameworks */,
+				19EF56FC1D99B9C200E1AF2D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				19EF57001D99B9C200E1AF2D /* PBXTargetDependency */,
+			);
+			name = "fastlane-playgroundTests";
+			productName = "fastlane-playgroundTests";
+			productReference = 19EF56FE1D99B9C200E1AF2D /* fastlane-playgroundTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		19EF57081D99B9C200E1AF2D /* fastlane-playgroundUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19EF57181D99B9C200E1AF2D /* Build configuration list for PBXNativeTarget "fastlane-playgroundUITests" */;
+			buildPhases = (
+				19EF57051D99B9C200E1AF2D /* Sources */,
+				19EF57061D99B9C200E1AF2D /* Frameworks */,
+				19EF57071D99B9C200E1AF2D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				19EF570B1D99B9C200E1AF2D /* PBXTargetDependency */,
+			);
+			name = "fastlane-playgroundUITests";
+			productName = "fastlane-playgroundUITests";
+			productReference = 19EF57091D99B9C200E1AF2D /* fastlane-playgroundUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		19EF56DE1D99B9C200E1AF2D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = Nexus;
+				TargetAttributes = {
+					19EF56E51D99B9C200E1AF2D = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = ZCRH48Q4SG;
+						ProvisioningStyle = Automatic;
+					};
+					19EF56FD1D99B9C200E1AF2D = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = ZCRH48Q4SG;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 19EF56E51D99B9C200E1AF2D;
+					};
+					19EF57081D99B9C200E1AF2D = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = ZCRH48Q4SG;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 19EF56E51D99B9C200E1AF2D;
+					};
+				};
+			};
+			buildConfigurationList = 19EF56E11D99B9C200E1AF2D /* Build configuration list for PBXProject "fastlane-playground" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 19EF56DD1D99B9C200E1AF2D;
+			productRefGroup = 19EF56E71D99B9C200E1AF2D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				19EF56E51D99B9C200E1AF2D /* fastlane-playground */,
+				19EF56FD1D99B9C200E1AF2D /* fastlane-playgroundTests */,
+				19EF57081D99B9C200E1AF2D /* fastlane-playgroundUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		19EF56E41D99B9C200E1AF2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19EF56F81D99B9C200E1AF2D /* LaunchScreen.storyboard in Resources */,
+				19EF56F51D99B9C200E1AF2D /* Assets.xcassets in Resources */,
+				19EF56F31D99B9C200E1AF2D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19EF56FC1D99B9C200E1AF2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19EF57071D99B9C200E1AF2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		19EF56E21D99B9C200E1AF2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19EF56EC1D99B9C200E1AF2D /* RootViewController.swift in Sources */,
+				19EF56F01D99B9C200E1AF2D /* ModelController.swift in Sources */,
+				19EF56EE1D99B9C200E1AF2D /* DataViewController.swift in Sources */,
+				19EF56EA1D99B9C200E1AF2D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19EF56FA1D99B9C200E1AF2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19EF57031D99B9C200E1AF2D /* fastlane_playgroundTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19EF57051D99B9C200E1AF2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19EF570E1D99B9C200E1AF2D /* fastlane_playgroundUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		19EF57001D99B9C200E1AF2D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 19EF56E51D99B9C200E1AF2D /* fastlane-playground */;
+			targetProxy = 19EF56FF1D99B9C200E1AF2D /* PBXContainerItemProxy */;
+		};
+		19EF570B1D99B9C200E1AF2D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 19EF56E51D99B9C200E1AF2D /* fastlane-playground */;
+			targetProxy = 19EF570A1D99B9C200E1AF2D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		19EF56F11D99B9C200E1AF2D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				19EF56F21D99B9C200E1AF2D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		19EF56F61D99B9C200E1AF2D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				19EF56F71D99B9C200E1AF2D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		19EF57101D99B9C200E1AF2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		19EF57111D99B9C200E1AF2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		19EF57131D99B9C200E1AF2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZCRH48Q4SG;
+				INFOPLIST_FILE = "fastlane-playground/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nexusgroup.fastlane-playground";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		19EF57141D99B9C200E1AF2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZCRH48Q4SG;
+				INFOPLIST_FILE = "fastlane-playground/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nexusgroup.fastlane-playground";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		19EF57161D99B9C200E1AF2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = ZCRH48Q4SG;
+				INFOPLIST_FILE = "fastlane-playgroundTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nexusgroup.fastlane-playgroundTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/fastlane-playground.app/fastlane-playground";
+			};
+			name = Debug;
+		};
+		19EF57171D99B9C200E1AF2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = ZCRH48Q4SG;
+				INFOPLIST_FILE = "fastlane-playgroundTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nexusgroup.fastlane-playgroundTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/fastlane-playground.app/fastlane-playground";
+			};
+			name = Release;
+		};
+		19EF57191D99B9C200E1AF2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = ZCRH48Q4SG;
+				INFOPLIST_FILE = "fastlane-playgroundUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nexusgroup.fastlane-playgroundUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "fastlane-playground";
+			};
+			name = Debug;
+		};
+		19EF571A1D99B9C200E1AF2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = ZCRH48Q4SG;
+				INFOPLIST_FILE = "fastlane-playgroundUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nexusgroup.fastlane-playgroundUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "fastlane-playground";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		19EF56E11D99B9C200E1AF2D /* Build configuration list for PBXProject "fastlane-playground" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19EF57101D99B9C200E1AF2D /* Debug */,
+				19EF57111D99B9C200E1AF2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		19EF57121D99B9C200E1AF2D /* Build configuration list for PBXNativeTarget "fastlane-playground" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19EF57131D99B9C200E1AF2D /* Debug */,
+				19EF57141D99B9C200E1AF2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		19EF57151D99B9C200E1AF2D /* Build configuration list for PBXNativeTarget "fastlane-playgroundTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19EF57161D99B9C200E1AF2D /* Debug */,
+				19EF57171D99B9C200E1AF2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		19EF57181D99B9C200E1AF2D /* Build configuration list for PBXNativeTarget "fastlane-playgroundUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19EF57191D99B9C200E1AF2D /* Debug */,
+				19EF571A1D99B9C200E1AF2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 19EF56DE1D99B9C200E1AF2D /* Project object */;
+}
